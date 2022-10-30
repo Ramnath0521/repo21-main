@@ -359,7 +359,7 @@ box-shadow: inset -4px -4.78px 4.77922px #3283EA;
 }
 
 
-/* * {
+* {
 	box-sizing: border-box;
   }
   
@@ -557,9 +557,9 @@ box-shadow: inset -4px -4.78px 4.77922px #3283EA;
   input[type=radio]:checked#radio-choice-10 ~ .dial::after {
 	transform: rotateZ(300deg);
   }
-   */
+  
   /* Frequency */
-  /* fieldset #freq-choice-0, fieldset label[for=freq-choice-0] {
+  fieldset #freq-choice-0, fieldset label[for=freq-choice-0] {
 	transform: rotateZ(0deg);
   }
   fieldset #freq-choice-1, fieldset label[for=freq-choice-1] {
@@ -737,14 +737,14 @@ box-shadow: inset -4px -4.78px 4.77922px #3283EA;
 	display: inline-block;
   }
   
-
+  /* start commented backslash hack \*/
   * html .clearfix {
 	height: 1%;
   }
   
   .clearfix {
 	display: block;
-  } */
+  }
   
   /* close commented backslash hack */
   
